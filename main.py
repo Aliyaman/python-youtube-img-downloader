@@ -1,8 +1,12 @@
 import youtube_dl
 from selenium import webdriver
 
-url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+#Profile link or video link
+#Read documentation.
+url = ""#Enter url here.
 
+#Starts Firefox webdriver.
+#It is necessary to start Firefox webdriver
 driver = webdriver.Firefox()
 driver.set_window_size(600,600)
 

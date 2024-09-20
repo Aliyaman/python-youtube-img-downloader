@@ -36,3 +36,4 @@ def download_thumbnail(url, driver):
     url = style_value[url_start:url_end]
     print(url)
     downloader(url, file_name)
+    driver.quit()
